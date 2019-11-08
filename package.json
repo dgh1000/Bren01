@@ -1,0 +1,13 @@
+{
+  "name": "chr-db-liver-server-init",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "cp src/index.html dist/ && cp src/require.js dist/",
+    "watch": "npm run setup && tsc --watch"
+  },
+  "author": "Mike",
+  "license": "ISC",
+  "description": ""
+}

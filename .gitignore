@@ -1,0 +1,16 @@
+node_modules
+bower_components
+.npm
+logs
+*.log
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+dist/**/*
+!dist/index.html
+!dist/require.js
+!dist/favicon.ico
+.DS_Store
+Thumbs.db
